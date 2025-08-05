@@ -1,5 +1,5 @@
 {% set name = "libcppitertools" %}
-{% set version = "2.2" %}
+{% set version = "2.3" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://github.com/ryanhaining/cppitertools/archive/refs/tags/v{{ version }}.tar.gz
-    sha256: d4e796c9d8ec769fbd68df92943d238d0c43667307995ede058069e770827481
+    sha256: 419c8192691859650cca8ae7c7a8d633af42dfc453af87b7645338536c6e9e82
 
 build:
   number: 0
